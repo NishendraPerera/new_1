@@ -1,0 +1,35 @@
+
+.slider_text {
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(85, 85, 85, 0.6);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.slider_heading {
+    font-size: 35px;
+}
+
+.slider_description {
+
+}
+
+.view_more {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.view_more .btn:hover {
+    background-color: #1E80CA;
+    border-color: #1E80CA;
+    color: #fff;
+}
